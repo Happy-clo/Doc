@@ -9,14 +9,14 @@ const config = {
   title: 'Happy Docs',
   tagline: 'Docs for Happy',
   url: 'https://docs.wdsj.one/',
-  baseUrl: '/Docs-GHPages',
+  baseUrl: '/Doc',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   // @ts-ignore
   onBrokenLinks: 'ignore',
-  organizationName: 'Happy-clo', // Usually your GitHub org/user name.
-  projectName: 'Happy-Docs', // Usually your repo name.
+  organizationName: 'Happy', // Usually your GitHub org/user name.
+  projectName: 'Happy Docs', // Usually your repo name.
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
   i18n: {
@@ -31,7 +31,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/Happy-clo/Docs/tree/main/',
+          editUrl: 'https://github.com/Happy-clo/Doc/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,14 +44,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Happy Docs',
+        title: 'Happy Doc',
         logo: {
           alt: 'icon',
           src: 'img/logo.svg',
         },
         items: [
           {
-            href: 'https://chat.wdsj.one/',
+            href: 'https://ai.wdsj.one/',
             label: 'ChatWeb',
             position: 'right',
           },
