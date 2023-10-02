@@ -9,7 +9,7 @@ const config = {
   title: 'Happy Docs',
   tagline: 'Docs for Happy',
   url: 'https://docs.wdsj.one/',
-  baseUrl: '/',
+  baseUrl: '/Docs-GHPages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
