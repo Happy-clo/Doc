@@ -20,8 +20,12 @@ const config = {
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: "zh-Hans",
+    locales: ["zh-Hans", "en"],
+    localeConfigs: {
+      en: {
+        htmlLang: "en-US",
+      },
   },
   presets: [
     [
