@@ -22,10 +22,6 @@ const config = {
   i18n: {
     defaultLocale: "zh-Hans",
     locales: ["zh-Hans", "en"],
-    localeConfigs: {
-      en: {
-        htmlLang: "en-US",
-      },
   },
   presets: [
     [
