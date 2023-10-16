@@ -3,7 +3,13 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+module.exports = {
+  themeConfig: {
+    metadata: [{ name: 'robots', content: 'noindex, nofollow' }],
+    // This would become <meta name="keywords" content="cooking, blog"/> in the generated HTML
+  },
+  noIndex: true,
+};
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Happy Docs',
