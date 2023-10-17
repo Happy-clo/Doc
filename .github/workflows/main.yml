@@ -23,3 +23,6 @@ jobs:
         with:
           folder: build
           clean: false
+          branch: gh-pages
+          single-commit: true
+          commit-message: "Deploy [ci skip]"
