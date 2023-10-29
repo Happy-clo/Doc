@@ -62,7 +62,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://bing.wdsj.one/',
+            href: 'https://bingai.wdsj.one/',
             label: 'Bing',
             position: 'right',
           },
