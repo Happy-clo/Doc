@@ -57,12 +57,12 @@ const config = {
         },
         items: [
           {
-            href: 'https://ai.wdsj.one/',
+            href: 'https://ai.maoyuan.us/',
             label: 'ChatWeb',
             position: 'right',
           },
           {
-            href: 'https://bingai.wdsj.one/',
+            href: 'https://bingai.maoyuan.us/',
             label: 'Bing',
             position: 'right',
           },
